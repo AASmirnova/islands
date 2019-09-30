@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	background-color: #dcdcdc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.result {
+	margin: 0 0 60px 0;
+	padding: 0;
+	line-height: 1;
+	color: black;
+	font-size: 40px;
+}
+
+.line {
+	display: flex;
+	z-index: 1;
+	background-color: white;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px black solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ded0d0;
+	font-size: 30px;
+	line-height: 1;
+}
